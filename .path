@@ -1,0 +1,6 @@
+#!/usr/bin/env zsh
+
+export DOTF_BIN="~/Desktop/all/dotfiles/bin"
+
+
+export PATH="$PATH:$DOTF_BIN"

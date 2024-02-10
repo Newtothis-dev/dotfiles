@@ -1,0 +1,35 @@
+#!/usr/bin/env zsh
+
+brew update
+brew upgrade
+
+brew install coreutils
+brew install moreutils
+brew install findutils
+brew install gnu-sed --with-default-names
+brew install zsh 
+
+# Apps 
+brew install --cask pycharm-ce
+brew install --cask sublime-text
+brew install --cask iterm2
+brew install --cask spotify
+brew install --cask pomatez
+
+## Tools 
+brew install tree
+brew install ripgrep
+brew install clang-format
+brew install dockutil
+brew install trash
+brew install tldr
+
+
+## To Explore In Future 
+# diff-so-fancy: Good-lookin' diffs with diff-highlight and more
+# sip: Tool to create Python bindings for C and C++ libraries
+# mas: https://github.com/mas-cli/mas
+# zero: https://github.com/zero-sh/zero.sh
+
+# Remove outdated versions from the cellar.
+brew cleanup
