@@ -2,3 +2,7 @@
 
 alias todot="cd ~/Desktop/all/dotfiles"
 alias tocode="cd ~/Desktop/all/code"
+
+
+alias simple-share-on="mirror"
+alias simple-share-off="mirror -off"
