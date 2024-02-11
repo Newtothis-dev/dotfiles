@@ -1,0 +1,4 @@
+#!/usr/bin/env zsh
+
+alias todot="cd ~/Desktop/all/dotfiles"
+alias tocode="cd ~/Desktop/all/code"

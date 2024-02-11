@@ -1,6 +1,9 @@
 #!/usr/bin/env zsh
 
-export DOTF_BIN="~/Desktop/all/dotfiles/bin"
+ROOT="$(dirname ${0:A})"
 
+# export DOTF_BIN="$ROOT/bin"
+export DOTF_BIN="/Users/$USER/Desktop/all/dotfiles/bin"
+export LOCAL_BIN="/Users/$USER/bin"
 
-export PATH="$PATH:$DOTF_BIN"
+export PATH="$PATH:$DOTF_BIN:$LOCAL_BIN"
