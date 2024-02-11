@@ -24,6 +24,8 @@ brew install dockutil
 brew install trash
 brew install tldr
 
+brew tap fcanas/tap
+brew install mirror-displays
 
 ## To Explore In Future 
 # diff-so-fancy: Good-lookin' diffs with diff-highlight and more
